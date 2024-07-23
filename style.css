@@ -11,11 +11,6 @@ header {
   padding: 10px 0;
   text-align: center;
 }
-#a::before {
-    content: "🚚 ";
-    color: green;
-}
-
 nav ul {
   list-style: none;
   padding: 0;
