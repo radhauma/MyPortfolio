@@ -11,14 +11,11 @@ header {
   padding: 10px 0;
   text-align: center;
 }
-.a::before {
-    content: url('smiley.png'); /* Replace with your image path */
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
+#a::before {
+    content: "🚚 ";
+    color: green;
 }
-p::after {
+#a::after {
     content: url('smiley.png'); /* Replace with your image path */
     display: inline-block;
     width: 20px;
